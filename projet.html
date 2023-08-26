@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <title>Web de portefeuille</title>
+    </head>
+
+    <body>
+        <head>
+            <nav>
+                <a href="#accueil">Accueil</a>
+                <a href="#apropos">A propos</a>
+                <a href="#travail">Travail</a>
+                <a href="#cv">CV</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </head>
+        <section id="apropos">
+            <h1>A propos</h1>
+            <a name="Description"></a>
+            <h5>Description</h5>
+            <P>Je m'appelle Ahmed Gueye doctorant, Specialite mesure physique, systemede controle et de regulation.
+               Mon travail consite à mettre en place des plateforme de mesure basée sur l'IoT (Internet des Objet). 
+               J'ai eu concevoir :
+               <ul>
+                <li>des stations qui permet de mesurer la pollution</li>
+                <li>des systeme de mesure de la production des panneaux solaire</li>
+                <li>l'arrosage automatique des plantes</li>
+               </ul>
+               Je dispense aussi des cours en electronique, automatisme, domotique au departement de physique de la faculte des Sciences et Techniques de l'UCAD.
+            </P>
+            <img src="image.jpeg", alt="malin", width="120", height="200" />
+        </section>
+        <section id="travail">
+            <h1>Travail</h1>
+            <article class="Project">
+                <h3>Project 1 : L'Internet des Objet (IoT)</h3>
+
+                <iframe 
+                  width="560" 
+                  height="315" 
+                 
+                  src="https://www.youtube.com/embed/asywbysTyGk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen
+                ></iframe>
+
+            </article>
+
+            <article class="Project">
+                <h3>Project 2 : Conception systeme de mesure</h3>
+                <h4> Station Mobile Pollution</h4>
+                <img src="IMG_20220813_140213.jpg", alt="malin", width="220", height="200" />
+                <img src="IMG_20220813_124626.jpg", alt="malin", width="220", height="200" />
+                <img src="IMG_20220919_113535.jpg", alt="malin", width="220", height="200" />
+
+            </article>
+
+            <article class="Project">
+                <h3>Project 3 : Automatisation des moteur</h3>
+                <video>
+                    <video width="320" height="240" autoplay>
+                        <source src="VID_20220618_174945.mp4"type="video/mp4"/>
+                        Please Check the video exension
+                    </video>
+            </article>
+        </section>
+
+        <section id="cv">
+            <h1>CV</h1>
+            <P>Veillez telecharger votre Curriculum vitea</P>
+            <a href="CV.pdf" download>Telecharger CV</a>
+        </section>
+        <section id="contact">
+            <h1>Contactez-moi</h1>
+            <fom>
+                <label for="name">Nom :</label>
+                <input type="text" id="name" name="name" required>
+                <br/>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="message" required>
+                <br/>
+                <br/>
+                <label for="message">Message :</label>
+                <textarea type="message" id="message" rows="4" required></textarea>
+                <br/>
+                <button type="submit">envoye</button>
+        
+            </fom>
+        </section>
+        <a href="#Description">Who am I</a>
+
+        <footer>
+            <p>&copy; 2023 Ahmed Gueye. Tous droits réservés.</p>
+        </footer>
+    </body>
+</html>
